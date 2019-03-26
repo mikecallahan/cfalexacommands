@@ -3,7 +3,7 @@
     "bugs":"",
     "changelog":"",
     "contributors":[],
-    "dependencies":{"box-ngrok":"1.3.2"},
+    "dependencies":{"commandbox ngrok":"1.3.2"},
     "description":"",
     "devDependencies":{},
     "documentation":"",
