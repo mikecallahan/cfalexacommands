@@ -22,7 +22,7 @@ component {
     command( "!sleep 15s").run();
     var keyPress = waitForKey( 'Click in this window and then press the <enter> key after the CF Server is up and running.' );
     command( "server share start > share.txt" ).run(); 
-    command( "cd ../../" ).run();
+    command( "cd ./alexaskills/voice_template" ).run();
     command( "task run setURLs" ).run();
     command( "!ask deploy --profile 'default' --target 'skill'" ).run();
     command( "!ask deploy --profile 'default' --target 'model'" ).run();
