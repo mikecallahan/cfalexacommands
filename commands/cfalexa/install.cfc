@@ -14,7 +14,7 @@ component {
       .lightcyan3Line("Installing...")
       .line();
     command("!sleep 5s");
-    command( "!ask new --template cfalexa --url https://www.cfalexa.com/download/templates.json" ).run();
+    command( "install mikecallahan/cfalexa" ).run();
     print.cyanLine("Ok, cfalexa has been installed").line();
     command( "cd ./cfalexa" ).run();
     command( "server stop" ).run();
